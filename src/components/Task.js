@@ -21,11 +21,11 @@ class Task extends Component {
                     like:this.state.like+1
                 })
             }
-            else{
-                this.setState({
-                    like:this.state.like-1
-                })
-            }
+            // else{
+            //     this.setState({
+            //         like:this.state.like-1
+            //     })
+            // }
         })
     }
 
@@ -38,11 +38,11 @@ class Task extends Component {
                     dislike:this.state.dislike+1
                 })
             }
-            else{
-                this.setState({
-                    dislike:this.state.dislike-1
-                })
-            }
+            // else{
+            //     this.setState({
+            //         dislike:this.state.dislike-1
+            //     })
+            // }
 
        });
        
